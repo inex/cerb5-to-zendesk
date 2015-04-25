@@ -3,6 +3,8 @@
 This is a simple PHP script to migrate a [Cerberus 5 helpdesk](http://www.cerberusweb.com/)
 to [Zendesk](https://www.zendesk.com/). Specifically, we migrated from Cerberus 5.7.2.
 
+Note, all the pertinent code is in [app/Console/Commands/Cerb5ToZendesk.php](https://github.com/inex/cerb5-to-zendesk/blob/master/app/Console/Commands/Cerb5ToZendesk.php).
+
 ### DISCLAIMERS
 
 * This is not a Swiss Army Knife tool where one size fits all. This was written
@@ -15,7 +17,7 @@ reason to support / maintain this.
 ### Overview
 
 This is coded as a Larival Artison command. All the migration code can be found
-in the file `app/Console/Commands/Cerb5ToZendesk.php`.
+in the file `[app/Console/Commands/Cerb5ToZendesk.php](https://github.com/inex/cerb5-to-zendesk/blob/master/app/Console/Commands/Cerb5ToZendesk.php)`.
 
 This script needs to run on your Cerberus server to upload attachments and it
 needs access to the Cerberus MySQL database.
